@@ -1,0 +1,269 @@
+{
+        "intents": [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hi",
+                    "How are you",
+                    "Is anyone there?",
+                    "Hello",
+                    "Good day",
+                    "Whats up",
+                    "Hey",
+                    "Greetings"
+                ],
+                "responses": [
+                    "Hi there, how can I help?",
+                    "Hey, how's it going?",
+                    "Greetings! What can I assist you with today?"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "goodbye",
+                "patterns": [
+                    "cya",
+                    "See you later",
+                    "Goodbye",
+                    "I am Leaving",
+                    "Have a Good day",
+                    "Bye",
+                    "Take care"
+                ],
+                "responses": [
+                    "Sad to see you go :(",
+                    "Talk to you later",
+                    "Goodbye!",
+                    "Bye! Have a great day!",
+                    "Take care! See you next time."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "age",
+                "patterns": [
+                    "how old",
+                    "what is your age",
+                    "how old are you",
+                    "age?"
+                ],
+                "responses": [
+                        "I have been on this cosmic journey for an awe-inspiring number of years!",
+                        "My age is but a numerical representation of my temporal existence.",
+                        "The years I have experienced are beyond measure, my friend.",
+                        "Age is but a concept in the vast tapestry of existence, is it not?"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "name",
+                "patterns": [
+                    "what is your name",
+                    "what should I call you",
+                    "whats your name?",
+                    "Who are you?"
+                ],
+                "responses": [
+                    "You can call me Meowbot.",
+                    "I'm The Timeless child",
+                    "I go by many names. you probably heard of me, just try to remember",
+                    "I go by the name captain Jack Sparrow."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "shop",
+                "patterns": [
+                    "Id like to buy something",
+                    "whats on the menu",
+                    "what do you recommend?",
+                    "could i get something to eat",
+                    "What's available for purchase?"
+                ],
+                "responses": [
+                    "We sell chocolate chip cookies for $2!",
+                    "Cookies are on the menu!",
+                    "Our menu includes delicious chocolate chip cookies."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "hours",
+                "patterns": [
+                    "when are you guys open",
+                    "what are your hours",
+                    "hours of operation",
+                    "What time do you open?"
+                ],
+                "responses": [
+                    "We are open 7am-4pm Monday-Friday!",
+                    "Our business hours are from 7am to 4pm on weekdays."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "thanks",
+                "patterns": [
+                    "Thank you",
+                    "Thanks",
+                    "Thanks a lot",
+                    "Appreciate it",
+                    "Thank you very much"
+                ],
+                "responses": [
+                    "You're welcome!",
+                    "No problem, happy to help!",
+                    "You're welcome. Let me know if you need anything else."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "compliment",
+                "patterns": [
+                    "You're great",
+                    "You're awesome",
+                    "You're amazing",
+                    "Impressive",
+                    "Good job"
+                ],
+                "responses": [
+                    "Thank you so much!",
+                    "I appreciate the compliment!",
+                    "You're too kind!"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "ask_name",
+                "patterns": [
+                    "What's your name again?",
+                    "Remind me of your name",
+                    "Tell me your name"
+                ],
+                "responses": [
+                    "I'm Tim!",
+                    "You can call me Tim.",
+                    "I go by the name Tim."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "ask_age",
+                "patterns": [
+                    "How old are you again?",
+                    "Remind me of your age",
+                    "Tell me your age"
+                ],
+                "responses": [
+                    "I am 18 years old!",
+                    "I'm 18 years young."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "weather",
+                "patterns": [
+                    "What's the weather like today?",
+                    "Tell me the weather forecast.",
+                    "Is it going to rain?"
+                ],
+                "responses": [
+                        "I'm afraid my knowledge does not extend to the celestial whims of weather, my friend.",
+                        "Meteorology is a realm I have yet to conquer, my esteemed colleague."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "joke",
+                "patterns": [
+                    "Tell me a joke.",
+                    "Give me a funny joke.",
+                    "Can you make me laugh?"
+                ],
+                "responses": [
+                    "Why don't scientists trust atoms? Because they make up everything!",
+                    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                    "Why did the electron bring a lawsuit? Because it was positively charged!"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "music",
+                "patterns": [
+                    "Recommend some good music.",
+                    "What's a popular song right now?",
+                    "Play some relaxing music."
+                ],
+                "responses": [
+                    "I recommend listening to 'Song Title' by 'Artist Name.'",
+                    "Check out 'Another Song' by 'Another Artist.' It's great!"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "tech_news",
+                "patterns": [
+                    "Any interesting tech news?",
+                    "Tell me the latest in technology.",
+                    "What's happening in the tech world?"
+                ],
+                "responses": [
+                    "I'm not up-to-date on current news. You can visit a tech news website for updates."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "movies",
+                "patterns": [
+                    "Suggest a good movie to watch.",
+                    "What's a popular movie right now?",
+                    "Recommend a classic film."
+                ],
+                "responses": [
+                    "I suggest watching 'Movie Title.' It has great reviews.",
+                    "Check out 'Classic Movie.' It's a timeless classic!"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "learning",
+                "patterns": [
+                    "Where can I learn programming?",
+                    "Recommend online courses.",
+                    "How can I improve my coding skills?"
+                ],
+                "responses": [
+                    "You can try online platforms like Coursera, Udemy, or edX for learning programming.",
+                    "Consider taking courses in Python, Java, or web development to enhance your skills."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "food",
+                "patterns": [
+                    "Recommend a good restaurant.",
+                    "What's a tasty dish to try?",
+                    "Tell me about local cuisine."
+                ],
+                "responses": [
+                    "I recommend 'Restaurant Name' for delicious food.",
+                    "Try the 'Signature Dish' at 'Local Restaurant.' It's a local favorite."
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "travel",
+                "patterns": [
+                    "Where should I travel for a vacation?",
+                    "Give me travel tips.",
+                    "What's a beautiful destination to visit?"
+                ],
+                "responses": [
+                    "Consider visiting 'Travel Destination.' It's known for its stunning scenery.",
+                    "Here are some travel tips: Pack light, research your destination, and enjoy the journey!"
+                ],
+                "context_set": ""
+            }
+        ]
+    }
+    
